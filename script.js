@@ -25,7 +25,7 @@ const qrData2 = {
 const qrData3 = {
     bank: '970423',
     stk: '10000956500',
-    ctk: 'PHAM TIEN DUNGDUNG',
+    ctk: 'PHAM TIEN DUNG',
 };
 
 const qrUrl1 = `https://api.vietqr.io/image/${qrData1.bank}-${qrData1.stk}-Jd8xx3X.jpg?accountName=${encodeURIComponent(qrData1.ctk)}`;
